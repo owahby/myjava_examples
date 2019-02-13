@@ -1,7 +1,7 @@
 /*
 This reads in a sentence and then outputs it in reverse order.
 
-@author Mr. Dagler
+@author Omar Wahby
 */
 
 import java.util.Scanner;
@@ -17,12 +17,6 @@ public class SentenceReverse
     System.out.println("Enter a sentence: ");
     sentence = in.nextLine();
 
-    /*
-    Using the split function, you must define what you want computer
-    wants the split the elements by.
-
-    Plus, you don't need to declare the length of the array!
-    */
     words = sentence.split(" ");
 
     for(int i=words.length-1; i>=0; i--)
